@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="fr" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#FF6B35" />
+    <meta name="description" content="CrimeHub — Le réseau social des criminels fictifs 😈 (parodie humoristique)" />
+    <title>CrimeHub 🦹 — Villains Network</title>
+
+    <!-- Preconnect Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Nunito:wght@400;600;700;800;900&family=Permanent+Marker&display=swap" rel="stylesheet" />
+
+    <!-- Prevent flash of wrong theme -->
+    <script>
+      (function() {
+        var t = localStorage.getItem('crimehub_theme') || 'dark';
+        document.documentElement.setAttribute('data-theme', t);
+      })();
+    </script>
+
+    <style>
+      /* Critical inline — prevent FOUC */
+      body { margin: 0; background: #111118; }
+      [data-theme="light"] body { background: #f0ede8; }
+    </style>
+  </head>
+  <body>
+    <noscript>JavaScript est requis pour accéder au réseau criminel.</noscript>
+    <div id="root"></div>
+  </body>
+</html>

@@ -1,0 +1,16 @@
+import Sidebar from "./Sidebar";
+import Topbar from "./Topbar";
+
+export default function Layout({ children, title, subtitle }) {
+  return (
+    <div className="layout">
+      <Sidebar />
+      <div className="main-content">
+        <Topbar title={title} subtitle={subtitle} />
+        <div className="page-content">
+          {children}
+        </div>
+      </div>
+    </div>
+  );
+}
