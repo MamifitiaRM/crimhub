@@ -136,11 +136,7 @@ docker exec crimehub-backend node scripts/seed.js
 
 | Rôle | Login | Mot de passe |
 |------|-------|-------------|
-| 👑 **Admin Suprême** | `AdminSupreme` | `admin1234` |
 | 😈 Criminel | `ShadowFox` | `password123` |
-| 😈 Criminel | `GrandMaitreDuMal` | `password123` |
-| 😈 Criminel | `CaptaineChaos` | `password123` |
-| 😈 Criminel (banni) | `BonbonVoleur99` | `password123` |
 
 ---
 
@@ -239,4 +235,4 @@ Les autorités peuvent dormir tranquille. 😂
 
 ---
 
-*Built with ❤️ and 😈 — Cartoon MERN Stack — Fiction Only*
+*Built with ❤️ and 😈*
